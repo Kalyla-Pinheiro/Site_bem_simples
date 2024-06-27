@@ -19,7 +19,7 @@ O site oferece as seguintes funcionalidades:
 ![Tema Claro](https://github.com/Kalyla-Pinheiro/site_simples/blob/main/tema_light.png?raw=true)
 
 #### Tema Escuro
-![Tema Escuro](https://github.com/Kalyla-Pinheiro/site_simples/blob/main/tema_dark.png?raw=true)
+![Tema Escuro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_dark.png)
 
 ## Tecnologias Utilizadas
 
