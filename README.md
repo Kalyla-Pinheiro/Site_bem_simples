@@ -1,6 +1,6 @@
-# Site Simples
+# Site bem simples
 
-Este README documenta o projeto "Site Simples", o qual consiste numa criação de site web básico e informativo. O projeto visa atender às necessidades de usuários que desejam ter uma presença online sem a necessidade de conhecimentos técnicos avançados.
+Este README documenta o projeto "Site bem simples", o qual consiste numa criação de site web básico e informativo. O projeto visa atender às necessidades de usuários que desejam ter uma presença online sem a necessidade de conhecimentos técnicos avançados.
 
 Projeto desenvolvido durante um curso sobre como criar um site simples usando HTML, CSS e JavaScript
 
