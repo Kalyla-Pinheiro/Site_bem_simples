@@ -16,7 +16,7 @@ O site oferece as seguintes funcionalidades:
 ### Imagens das versões do site
 
 #### Tema Claro
-![Tema Claro](https://github.com/Kalyla-Pinheiro/site_simples/blob/main/tema_light.png?raw=true)
+![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_light.png)
 
 #### Tema Escuro
 ![Tema Escuro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_dark.png)
