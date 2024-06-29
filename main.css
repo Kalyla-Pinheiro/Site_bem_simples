@@ -1,12 +1,13 @@
 :root{
-    --green: #606C38;
-    --white: #ffffff;
-    --black: #000000;
+    --gold: #D6AD60;
+    --cream: #F4EBD0;
+    --charcoal: #122620;
+    --gelo:#D8CFC2;
 }
 
 * {
     color: var(--fontColor);
-    font-family: helvetica;
+    font-family: sans-serif;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 ul {
-    font-family: helvética;
+    font-family: helvetica;
 }
 li{
     list-style: circle;
@@ -23,13 +24,13 @@ li{
     list-style: square;
 }
 .light-theme {
-    --bg: var(--green);
-    --fontcolor: var(--black);
+    --bg: var(--gold);
+    --fontcolor: var(--charcoalk);
 }
 
 .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
+    --bg: var(--charcoal);
+    --fontColor: var(--gold);
 }
 
 .btn {
@@ -46,15 +47,15 @@ li{
 .btn:focus { outline-style: none; }
 
 .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+    --bg: var(--gold);
+    --fontColor: var(--charcoalck);
+    --btnBg: var(--charcoal);
+    --btnFontColor: var(--gelo);
 }
 
 .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black)
+    --bg: var(--charcoal);
+    --fontColor: var(--gold);
+    --btnBg: var(--gold);
+    --btnFontColor: var(--charcoal)
 }
