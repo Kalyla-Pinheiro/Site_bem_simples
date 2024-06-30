@@ -7,11 +7,7 @@ const darkContent = document.querySelector('.dark-content');
 
 switcher.addEventListener('click', function() {
 
-  const isDarkTheme = body.classList.contains('dark-theme');
-
-  switcher.textContent = isDarkTheme ? 'Light' : 'Dark';
-
-  body.classList.toggle('dark-theme');
+  const isDarkTheme = body.classList.contains('light-theme');
 
   if (isDarkTheme) {
     lightContent.style.display = 'none';
