@@ -43,11 +43,11 @@
     body.classList.toggle('dark-theme');
 
     if (isDarkTheme) {
-      lightContent.style.display = 'none';
-      darkContent.style.display = 'block';
-    } else {
       lightContent.style.display = 'block';
       darkContent.style.display = 'none';
+    } else {
+      lightContent.style.display = 'none';
+      darkContent.style.display = 'block';
     }
 
     console.log('current class name: ' + isDarkTheme); 
