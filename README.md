@@ -13,13 +13,20 @@ O site oferece as seguintes funcionalidades:
 - **Lista de Tarefas**: Mostra as tarefas concluídas durante o curso, fornecendo um registro do progresso realizado.
 - **Alternância de Temas**: Permite ao usuário escolher entre os temas claro e escuro para uma experiência visual personalizada.
 
-### Imagens das versões do site
+### Imagens das versões propostas pelo curso do site
 
 #### Tema Claro
 ![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_light.png)
 
 #### Tema Escuro
 ![Tema Escuro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_dark.png)
+
+## Imagens das versões criadas por mim do site
+![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_light.png)
+
+![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/tema_light.png)
+### Realizei algumas alterações:
+##### DESCRIÇÃO: Primeiro mostrei a opção de ao clicar mudará de tema. Nesse contexto, na tela inicial (versão light) no botão consiste a opção de "Mudar", ao clicar em "Mudar" haverá mudança de tema, para o da versão dark. Dessa forma, o usuário verá no botão a versão em qual está, ou seja, o botão corresponde ao tema em qual o usuário está, quando desejar alterar e só clicar no botão. 
 
 ## Tecnologias Utilizadas
 
