@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-     <meta charset="UTF-8">
-     <title>Simples website</title>
-     <link rel="stylesheet" href="main.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Simples website</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body class="light-theme">
-    <h1> Task list </h1>
-    <p id="msg">Current tasks:</p>
-    <ul>
-       <li class="list">Add visual styles</li>
-       <li class="list">Add light and dark themes</li>
-       <li>Enable switching the theme</li>
-    </ul> 
-    <div>
-        <button class="btn">Dark</button>
-    </div>
+  <h1>Organização</h1>
+  <h3 id="msg">HTML/CSS/JavaScript:</h3>
+  <ul>
+    <li class="list">Construa a base do seu site com elementos HTML.</li>
+    <li class="list">Construa dois estilos de tema</li>
+    <li class="list">Insira tópicos e estilos</li>
+    <li>Lembrete: Pratique bastante!!</li>
+  </ul>
+
+  <section class="light-content">
+    </section>
+
+  <section class="dark-content">
+    </section>
+
+  <div>
+    <button class="btn">Dark</button>
+  </div>
+
+  <script>
+  'use strict';
+
+  const switcher = document.querySelector('.btn');
+  const body = document.body;
+  const lightContent = document.querySelector('.light-content');
+  const darkContent = document.querySelector('.dark-content');
+
+  switcher.addEventListener('click', function() {
+    
+    const isDarkTheme = body.classList.contains('dark-theme');
+
+    
+    switcher.textContent = isDarkTheme ? 'Light' : 'Dark';
+    
+    body.classList.toggle('dark-theme');
+
+    if (isDarkTheme) {
+      lightContent.style.display = 'none';
+      darkContent.style.display = 'block';
+    } else {
+      lightContent.style.display = 'block';
+      darkContent.style.display = 'none';
+    }
+
+    console.log('current class name: ' + isDarkTheme); 
+  });
+  </script>
+</body>
+</html>
