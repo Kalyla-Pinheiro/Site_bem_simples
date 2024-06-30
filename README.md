@@ -24,7 +24,7 @@ O site oferece as seguintes funcionalidades:
 ## Imagens das versões criadas por mim do site
 
 ### Tela Inicial
-
+![Tela Inicial](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/telaInicial.png)
 ### Tema Claro
 ![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/MeuLight.png)
 
