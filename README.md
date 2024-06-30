@@ -28,12 +28,12 @@ Primeiro mostrei a opção de ao clicar mudará de tema. Nesse contexto, na tela
 
 ### Tela Inicial
 ![Tela Inicial](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/telaInicial.png)
-### Tema Claro
-![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/MeuLight.png)
-
 
 ### Tema Escuro
 ![Tema Escuro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/MeuDark.png). 
+
+### Tema Claro
+![Tema Claro](https://github.com/Kalyla-Pinheiro/Site_bem_simples/blob/main/MeuLight.png)
 
 ## Tecnologias Utilizadas
 
