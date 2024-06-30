@@ -1,61 +1,71 @@
-:root{
+:root {
     --gold: #D6AD60;
     --cream: #F4EBD0;
     --charcoal: #122620;
-    --gelo:#D8CFC2;
-}
-
-* {
+    --gelo: #D8CFC2;
+    --fontColor: var(--text-color); 
+    --text-color: #333; 
+  }
+  
+  * {
     color: var(--fontColor);
-    font-family: sans-serif;
-}
-
-body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  body {
+    font-size: 16px;
+    line-height: 1.5;
     background: var(--bg);
-}
-
-ul {
-    font-family: helvetica;
-}
-li{
+  }
+  
+  ul {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  li {
     list-style: circle;
-}
-.list{
+  }
+  
+  .list {
     list-style: square;
-}
-.light-theme {
+  }
+  
+  .light-theme {
     --bg: var(--gold);
-    --fontcolor: var(--charcoalk);
-}
-
-.dark-theme {
-    --bg: var(--charcoal);
-    --fontColor: var(--gold);
-}
-
-.btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-}
-.btn:focus { outline-style: none; }
-
-.light-theme {
-    --bg: var(--gold);
-    --fontColor: var(--charcoalck);
+    --fontColor: var(--charcoal); 
     --btnBg: var(--charcoal);
     --btnFontColor: var(--gelo);
-}
-
-.dark-theme {
+  }
+  
+  .dark-theme {
     --bg: var(--charcoal);
     --fontColor: var(--gold);
     --btnBg: var(--gold);
-    --btnFontColor: var(--charcoal)
-}
+    --btnFontColor: var(--charcoal);
+  }
+  
+  .btn {
+    position: relative; 
+    top: 20px;
+    left: 300px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid var(--btnBorder); 
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    cursor: pointer;
+  }
+  
+  .btn:focus {
+    outline-style: dashed;
+  }
+  
+  .btnBorder {
+    color: var(--charcoal); 
+  }
+  
+  .light-theme .btnBorder {
+    color: var(--gold);
+  }
+  
